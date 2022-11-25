@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>LevelUp</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__video">
+            <video class="header__movie" playsinline autoplay muted loop>
+                <source
+                    src="https://cdn.videvo.net/videvo_files/video/free/2020-09/large_watermarked/200813_06_Doctors_HD_006_preview.mp4"
+                    type="video/webm">
+            </video>
+            <div class="header__promo">
+                <h1 class="header__title">LevelUp</h1>
+
+                <div class="header__about">
+                    <img class="header__image" src="./img/levelup.png" alt="product">
+                    <div class="header__product">
+                        <ul class="header__product_features">
+                            <li class="header__product_feature">Быстрое действие</li>
+                            <li class="header__product_feature">Безопасный</li>
+                            <li class="header__product_feature">Удобная упаковка</li>
+                        </ul>
+                        <a href="#order" class="header__product_button btn">Заказать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="product">
+            <div class="container">
+                <div class="product__content">
+                    <div class="product__content_items">
+                        <div class="product__content_item">
+                            <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                            <span class="item__text">lorem</span>
+                            <a href="#order" class="product__button btn">Заказать</a>
+                        </div>
+                        <div class="product__content_item">
+                            <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                            <span class="item__text">lorem</span>
+                            <a href="#order" class="product__button btn">Заказать</a>
+                        </div>
+                        <div class="product__content_item">
+                            <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                            <span class="item__text">lorem</span>
+                            <a href="#order" class="product__button btn">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="product__content_items">
+                        <img src="./img/levelup.png" alt="product" class="header__image">
+                    </div>
+
+                    <div class="product__content_items">
+                        <div class="product__content_item">
+                            <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                            <span class="item__text">lorem</span>
+                            <a href="#order" class="product__button btn">Заказать</a>
+                        </div>
+                        <div class="product__content_item">
+                            <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                            <span class="item__text">lorem</span>
+                            <a href="#order" class="product__button btn">Заказать</a>
+                        </div>
+                        <div class="product__content_item">
+                            <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                            <span class="item__text">lorem</span>
+                            <a href="#order" class="product__button btn">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product__review">
+                                <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                                <h2 class="product__review_title">name</h2>
+                                <p class="product__review_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product__review">
+                                <img class="item__image" src="img/doctor.png" alt="LevelUp">
+                                <h2 class="product__review_title">name</h2>
+                                <p class="product__review_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product__review">
+                                <img src="./img/doctor.png" alt="LevelUp" class="item__image">
+                                <h2 class="product__review_title">name</h2>
+                                <p class="product__review_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="promo">
+            <div class="container">
+                <div class="promo__container">
+                    <img class="promo__image" src="./img/doctor.png" alt="doctor">
+                    <div class="promo__content-right">
+                        <h2 class="promo__title">LevelUp</h2>
+                        <p class="promo__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#order" class="promo__button btn">Заказать</a>
+                    </div>
+                </div>
+                <ul class="promo__features">
+                    <li class="promo__feature">Быстрое действие</li>
+                    <li class="promo__feature">Безопасный</li>
+                    <li class="promo__feature">Удобная упаковка</li>
+                </ul>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container">
+                <div class="order__content">
+                    <h2 class="order__title">LevelUp</h2>
+                    <span class="order__timer" id="order__timer">30:00</span>
+                    <div class="order__promo">
+                        <img class="order__image" src="./img/levelup.png" alt="levelup">
+                        <span class="order__price_last"> &nbsp;1100&nbsp; </span>
+                        <span class="order__price_new">999</span>
+                    </div>
+                    <form action="#" class="order__form" id="order">
+                        <input type="text" class="order__form_name" name="name" placeholder="Имя">
+                        <input type="tel" class="order__form_tel" name="tel" placeholder="Телефон">
+                        <input type="submit" class="order__form_submit btn" value="Заказать">
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js" type="text/javascript"></script>
+</body>
+
+</html>
